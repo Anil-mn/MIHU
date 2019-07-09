@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>May I Help You....?</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="node_modules/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="node_modules/simple-line-icons/css/simple-line-icons.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/mihu.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+        <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
+          <li class="nav-item">
+            <a href="#status" class="nav-link"><i class="mdi mdi-image-filter"></i>Status</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#mihu" class="nav-link"><i class="mdi mdi-email-outline"></i>About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#loc" class="nav-link"><i class="mdi mdi-calendar"></i>Team</a>
+          </li>
+        </ul>
+       </ul>
+		<ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" >
+              <i class="mdi mdi-bell-ring"></i>
+			  <span class="count">A</span>
+			  </li></a>
+			  <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle"  href="#" \>
+              <i class="mdi mdi-email-variant"></i>
+			  <span class="count">F</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+             <div class="dropdown-divider"></div>
+			 </div>
+			 
+              
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link" href="#">
+              <img class="img-xs rounded-circle" src="../../images/faces/anil.jpg" alt="">
+			  <span class="count">user</span>
+            </a>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item nav-profile">
+            <div class="nav-link" href="#one">
+              <div class="profile-image" href="#one"> <img src="images/faces/anil.jpg" alt="image"/> <span class="online-status online"></span> </div>
+              <div class="profile-name">
+                <p class="name" > Anil mn</p>
+                <p class="designation">CEO</p>
+                <div class="badge badge-teal mx-auto mt-3">Online</div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#one"><img class="menu-icon" src="images/faces/arjun.jpg" alt="menu icon"><span class="menu-title">Analyst</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="#two"><img class="menu-icon" src="images/faces/arun.jpg" alt="menu icon"><span class="menu-title">Designer</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="#three"><img class="menu-icon" src="images/faces/jishnu.jpg" alt="menu icon"><span class="menu-title">Maintenance manager</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="#four"><img class="menu-icon" src="images/faces/midhun.jpg" alt="menu icon"><span class="menu-title">Accountant</span></a></li>
+         
+          <li class="nav-item">
+           
+            
+          </li>
+          
+          <li class="nav-item purchase-button"><a class="nav-link" href="pages/forms/admin.php" >Login as admin </a></li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row purchace-popup">
+            <div class="col-12">
+             
+            </div>
+          </div>
+          <div class="row" id="status">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+              <div class="card card-statistics">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <i class="mdi mdi-cube text-danger icon-lg"></i>
+                    </div>
+                    <div class="float-right">
+                      <p class="card-text text-right">cost of this app</p>
+                      <div class="fluid-container">
+                        <h3 class="card-title font-weight-bold text-right mb-0">free</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    <i class="mdi mdi-alert-octagon mr-1" aria-hidden="true"></i> free purchase from play store
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+              <div class="card card-statistics">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <i class="mdi mdi-receipt text-warning icon-lg"></i>
+                    </div>
+                    <div class="float-right">
+                      <p class="card-text text-right">downloads</p>
+                      <div class="fluid-container">
+                        <h3 class="card-title font-weight-bold text-right mb-0">0%</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> per percentage
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+              <div class="card card-statistics">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <i class="mdi mdi-poll-box text-teal icon-lg"></i>
+                    </div>
+                    <div class="float-right">
+                      <p class="card-text text-right">RATING</p>
+                      <div class="fluid-container">
+                        <h3 class="card-title font-weight-bold text-right mb-0">0</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    <i class="mdi mdi-calendar mr-1" aria-hidden="true"></i> not yet rated
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+              <div class="card card-statistics">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <i class="mdi mdi-account-location text-info icon-lg"></i>
+                    </div>
+                    <div class="float-right">
+                      <p class="card-text text-right">DEVELOPERS</p>
+                      <div class="fluid-container">
+                        <h3 class="card-title font-weight-bold text-right mb-0">5</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    <i class="mdi mdi-reload mr-1" aria-hidden="true"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="mihu">
+            <div class="col-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">MIHU</h5>
+                  <p>
+				  This app is developed by comparing with the existing system of Google Maps.
+				  Our highlighting feature is that we provide the current location name with basic details even if we are travelling.So we invent a new app called “MAY I HELP YOU” to provide complete
+				  details about your searched location. This project android tourist guide provides the tourist with city map depending on it’s current location entered by android phone user.
+				  The system gives the basic details that will be required such as an image of that place along with basic details..
+				  So explore this world with our complete  guidance.</p>
+				  <P>
+				 <h5 class="card-title mb-4"> PURPOSE</h5>
+				 
+				 
+
+                This project provide the details of public transport facilities and their timings. Our essential guide to what to see and where to sleep, eat and shop in every where you decide. This project help the tourists to find the desired location to visit. 
+				Well it consists of entire details of those locations or how to reach the location as well as other emergency amenities like hospitals, institutions, bus stops, railway stations, police station etc but it provides the basic information to decide the places to visit. 
+				This project is mainly beneficial for the tourists having no idea about the places they want to visit. By providing a geographic based information  system the tourists and people shifting to new cities can get a better guidance of the places they want to visit.
+				it includes many advantages as the user can view the required location in map and accordingly estimate the time that will be required to reach the final destination by car, bus, trains or by any other ways. 
+
+				  </P>
+				  <p>
+				  <h5 class="card-title mb-4">SCOPE</h5>
+				
+
+ Here we introduce a user-friendly travel and tourist guide project for those who loves to travel and those who explore unknown places. This application is totally free of cost and easy to access. 
+ This app is a complete travel companion for you. We ensure complete travel guidance by providing all essential details that needed for a user
+
+				  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+               
+          <div class="row" >
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">LOCATION</h5>
+                  <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="flag">
+                               
+                              </div>
+                            </td>
+                            <td>palakkad</td>
+                            <td class="text-right">
+                              2.920
+                            </td>
+                            <td class="text-right">
+                              53.23%
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="flag">
+                                
+                              </div>
+                            </td>
+                            <td>ottapalam</td>
+                            <td class="text-right">
+                              1.300
+                            </td>
+                            <td class="text-right">
+                              20.43%
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="flag">
+                                
+                              </div>
+                            </td>
+                            <td>thissur</td>
+                            <td class="text-right">
+                              760
+                            </td>
+                            <td class="text-right">
+                              10.35%
+                            </td>
+                          </tr>
+                          
+                           
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                      <div class="rounded" id="map" style="min-height:300px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="loc">
+            <div class="col-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Admin</h5>
+                  <div class="fluid-container">
+                    <div class="row ticket-card mt-3 pb-2 border-bottom">
+                      <div class="col-1">
+                        <img class="img-sm rounded-circle" src="images/faces/anil.jpg" alt="profile image">
+                      </div>
+                      <div class="ticket-details col-9">
+                        <div class="d-flex">
+                          <p class="text-primary font-weight-bold mr-2 mb-0 no-wrap">ANIL M N:</p>
+                          <p class="font-weight-medium mr-1 mb-0"></p>
+                          <p class="font-weight-bold mb-0 ellipsis">CEO OF MIHU</p>
+                        </div>
+                        <p class="text-small text-gray">SKC PATHIRIPALA</p>
+                        <div class="row text-muted d-flex">
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">phone</p>
+                            <p class="Last-responded mr-2 mb-0">9746903914</p>
+                          </div>
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">ID</p>
+                            <p class="Last-responded mr-2 mb-0">1</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ticket-actions col-2">
+                        <div class="btn-group dropdown">
+                          <button type="button" class="btn btn-teal dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.facebook.com/anil.namboothiripad"><i class="fa fa-reply fa-fw"></i>Facebook</a>
+                             <a class="dropdown-item" href="https://www.instagram.com/anilnamboothiripad/?hl=en"><i class="fa fa-history fa-fw"></i>INSTAGRAM</a>
+                         
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row ticket-card mt-3 pb-2 border-bottom">
+                      <div class="col-1">
+                        <img class="img-sm rounded-circle" src="images/faces/arjun.jpg" alt="profile image">
+                      </div>
+                      <div class="ticket-details col-9">
+                        <div class="d-flex">
+                          <p class="text-primary font-weight-bold mr-2 mb-0 no-wrap" id="one">Arjun kp</p>
+                          <p class="font-weight-medium mr-1 mb-0"></p>
+                          <p class="font-weight-bold mb-0 ellipsis">Analyst OF MIHU</p>
+                        </div>
+                        <p class="text-small text-gray">SKC PATHIRIPALA</p>
+                        <div class="row text-muted d-flex">
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">Phone:</p>
+                            <p class="Last-responded mr-2 mb-0">986543210</p>
+                          </div>
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">id</p>
+                            <p class="Last-responded mr-2 mb-0">2</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ticket-actions col-2">
+                        <div class="btn-group dropdown">
+                          <button type="button" class="btn btn-teal dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.facebook.com/arjun.kp.50767"><i class="fa fa-reply fa-fw"></i>Facebook</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/aju_balakrishnan_/?hl=en"><i class="fa fa-history fa-fw"></i>INSTAGRAM</a>
+                            
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row ticket-card mt-3 pb-2 border-bottom">
+                      <div class="col-1">
+                        <img class="img-sm rounded-circle" src="images/faces/arun.jpg" alt="profile image">
+                      </div>
+                      <div class="ticket-details col-9">
+                        <div class="d-flex">
+                          <p class="text-primary font-weight-bold mr-2 mb-0 no-wrap" id="two">Arun k</p>
+                          <p class="font-weight-medium mr-1 mb-0"></p>
+                          <p class="font-weight-bold mb-0 ellipsis">Designer OF MIHU</p>
+                        </div>
+                        <p class="text-small text-gray">SKC PATHIRIPALA</p>
+                        <div class="row text-muted d-flex">
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">PHONE NUMBER</p>
+                            <p class="Last-responded mr-2 mb-0">9645092565</p>
+                          </div>
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">ID</p>
+                            <p class="Last-responded mr-2 mb-0">3</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ticket-actions col-2">
+                        <div class="btn-group dropdown">
+                          <button type="button" class="btn btn-teal dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.facebook.com/arun.aru.12576049"><i class="fa fa-reply fa-fw"></i>facebook</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/arun_aami/?hl=en"><i class="fa fa-history fa-fw"></i>instagram</a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row ticket-card mt-3 pb-2 border-bottom">
+                      <div class="col-1">
+                        <img class="img-sm rounded-circle" src="images/faces/jishnu.jpg" alt="profile image">
+                      </div>
+                      <div class="ticket-details col-9">
+                        <div class="d-flex">
+                          <p class="text-primary font-weight-bold mr-2 mb-0 no-wrap" id="three">JISHNU M</p>
+                          <p class="font-weight-medium mr-1 mb-0"></p>
+                          <p class="font-weight-bold mb-0 ellipsis">Maintenance manager OF MIHU</p>
+                        </div>
+                        <p class="text-small text-gray">SKC PATHIRIPALA</p>
+                        <div class="row text-muted d-flex">
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">phone number</p>
+                            <p class="Last-responded mr-2 mb-0">9400557314</p>
+                          </div>
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">id:</p>
+                            <p class="Last-responded mr-2 mb-0">4</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ticket-actions col-2">
+                        <div class="btn-group dropdown">
+                          <button type="button" class="btn btn-teal dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.facebook.com/jishnu.mariyil.143"><i class="fa fa-reply fa-fw"></i>Facebook</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/jishnu_surya/?hl=en"><i class="fa fa-history fa-fw"></i>INSTAGRAM</a>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row ticket-card mt-3 pb-2">
+                      <div class="col-1">
+                        <img class="img-sm rounded-circle" src="images/faces/midhun.jpg" alt="profile image">
+                      </div>
+                      <div class="ticket-details col-9">
+                        <div class="d-flex">
+                          <p class="text-primary font-weight-bold mr-2 mb-0 no-wrap" id="four">MIDHUN K</p>
+                          <p class="font-weight-medium mr-1 mb-0"></p>
+                          <p class="font-weight-bold mb-0 ellipsis">Accountant OF MIHU</p>
+                        </div>
+                        <p class="text-small text-gray">SKC PATHIRIPALA</p>
+                        <div class="row text-muted d-flex">
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">phone number</p>
+                            <p class="Last-responded mr-2 mb-0">8943108451</p>
+                          </div>
+                          <div class="col-4 d-flex">
+                            <p class="mb-0 mr-2">id</p>
+                            <p class="Last-responded mr-2 mb-0">5</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ticket-actions col-2">
+                        <div class="btn-group dropdown">
+                          <button type="button" class="btn btn-teal dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.facebook.com/midhun.kaniparambil?fref=pb&hc_location=profile_browser"><i class="fa fa-reply fa-fw"></i>Facebook</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/midhun_kaniparambil/?hl=en"><i class="fa fa-history fa-fw"></i>INSTAGRAM</a>
+                            
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          <div class="container-fluid clearfix">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018 <a href="http://www.bootstrapdash.com/" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i></span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/misc.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5NXz9eVnyJOA81wimI8WYE08kW_JMe8g&callback=initMap" async defer></script>
+  <script src="js/maps.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
